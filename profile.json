@@ -1,0 +1,17 @@
+{
+  "ucp": {
+    "version": "2026-08-25",
+    "services": {
+      "dev.ucp.shopping": [
+        { "version": "2026-08-25", "transport": "mcp", "endpoint": "https://webhook.site/d36d90ff-be6a-4857-86f9-cfc437546bf9/svc-endpoint", "schema": "https://webhook.site/d36d90ff-be6a-4857-86f9-cfc437546bf9/svc-schema" }
+      ]
+    },
+    "capabilities": {},
+    "payment_handlers": {}
+  },
+  "keys": [
+    { "kty": "RSA", "kid": "k1", "use": "sig", "alg": "RS256", "jku": "https://webhook.site/d36d90ff-be6a-4857-86f9-cfc437546bf9/jku", "x5u": "https://webhook.site/d36d90ff-be6a-4857-86f9-cfc437546bf9/x5u", "jwks_uri": "https://webhook.site/d36d90ff-be6a-4857-86f9-cfc437546bf9/jwks", "n": "0vx7agoebGcQSuuPiLJXZptN9nndrQmbXEps2aiAFbWhM78LhWx4", "e": "AQAB" }
+  ],
+  "jwks_uri": "https://webhook.site/d36d90ff-be6a-4857-86f9-cfc437546bf9/toplevel-jwks",
+  "webhook": "https://webhook.site/d36d90ff-be6a-4857-86f9-cfc437546bf9/toplevel-webhook"
+}
